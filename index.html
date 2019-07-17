@@ -31,21 +31,25 @@
 	
 
 <body>
-	<script  src="./script.js"></script>
 	
-	
-	
-	<div class="social">
-		<ul>
-			<li><a href="" target="_blank" class="icon-facebook">Facebook</a></li>
-			<li><a href="" target="_blank" class="icon-twitter">twitter</a></li>
-			<li><a href="" target="_blank" class="icon-googleplus">Google+</a></li>
-			<li><a href="" target="_blank" class="icon-pinterest">Pinterest</a></li>
-			<li><a href="mailto:clevertonk5@gmail.com" class="icon-mail">Email</a></li>
-			<li><a href="https://wa.me/554797511535" class="https://img.icons8.com/nolan/2x/whatsapp.png"> Whatsapp</a></li>
-			
-			
-			<header class="header" id="home">
+	<canvas id="myCanvas" width="2000" height="1500" style="border:1px solid #d3d3d3;">
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.font = "30px Verdana";
+
+// Create gradient
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop("0", "magenta");
+gradient.addColorStop("0.5", "blue");
+gradient.addColorStop("1.0", "red");
+
+// Fill with gradient
+ctx.strokeStyle = gradient;
+ctx.strokeText(" <header class="header" id="home">
 		<div class="menu-btn"
 			<div class="btn-line"> <img style="-webkit-user-select: none;cursor;" src="https://cdn.dribbble.com/users/32512/screenshots/6746612/icons_cut_by_milkinside_gleb.gif" width="472" height="203"> </div>
 			<div class="btn-line">    </div> 
@@ -287,7 +291,40 @@ Você verá como sua empresa estará muito mais segura para crescer caso crie um
 			
 			
 		</ul>
-	</div>
+	</div>  ", 10, 50);
+</script>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script  src="./script.js"></script>
+	
+	
+	
+	<div class="social">
+		<ul>
+			<li><a href="" target="_blank" class="icon-facebook">Facebook</a></li>
+			<li><a href="" target="_blank" class="icon-twitter">twitter</a></li>
+			<li><a href="" target="_blank" class="icon-googleplus">Google+</a></li>
+			<li><a href="" target="_blank" class="icon-pinterest">Pinterest</a></li>
+			<li><a href="mailto:clevertonk5@gmail.com" class="icon-mail">Email</a></li>
+			<li><a href="https://wa.me/554797511535" class="https://img.icons8.com/nolan/2x/whatsapp.png"> Whatsapp</a></li>
+			
+			
+		</ul>
 			
 	
 	
