@@ -32,7 +32,7 @@ function setup() {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: 90%;
 	`;
   document.body.appendChild(canvas.b);
   particles = [];
