@@ -1,6 +1,6 @@
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/58d0c18b-5d48-4347-bf47-1fb6c8b57043/deploy-status)](https://app.netlify.com/sites/cleverton-br-frontend/deploys) [!Dev ]   ( https://cleverton-br-frontend.netlify.com)]    [!Dev 02](https://premiumwebclever.github.io/FullStackJoinville/)]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58d0c18b-5d48-4347-bf47-1fb6c8b57043/deploy-status)](https://app.netlify.com/sites/cleverton-br-frontend/deploys) [!Dev01]   ( https://cleverton-br-frontend.netlify.com)]    [!Dev 02](https://premiumwebclever.github.io/FullStackJoinville/)]
 
 
 
